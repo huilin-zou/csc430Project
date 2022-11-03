@@ -1,6 +1,7 @@
 import './style.css'
-import Navbar from "./NavBar.js";
+
 import Main from "./Main.js";
+import Navbar from "./NavBar.js";
 
 function App() {
   return (

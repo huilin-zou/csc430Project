@@ -1,4 +1,5 @@
 import React from "react"
+
 import logo from "./sushi.png"
 
 export default function Main() {
