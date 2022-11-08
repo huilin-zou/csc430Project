@@ -56,11 +56,19 @@ export default function Contact () {
                       <br></br>
                       <br></br>
                       <br></br>
-                      <br></br>
+                    <NavLink className="choiceButton"
 
+                             to="/dinein"
+                    >
+                        DINE IN
+                    </NavLink>
 
-                      <a href='dineIn.html' className="choiceButton">DINE IN</a>
-                      <a href='takeOut.html' className="choiceButton">TAKE OUT</a>
+                    <NavLink className="choiceButton"
+
+                             to="/takeout"
+                    >
+                        TAKE OUT
+                    </NavLink>
                 </div>
           </div>
 

@@ -31,11 +31,21 @@ export default function Home() {
                 <br></br>
                 <br></br>
                 <br></br>
+                <div>
+                <NavLink className="choiceButton"
 
+                         to="/dinein"
+                >
+                    DINE IN
+                </NavLink>
 
+                <NavLink className="choiceButton"
 
-                <a href='dineIn.html' className="choiceButton">DINE IN</a>
-                <a href='takeOut.html' className="choiceButton">TAKE OUT</a>
+                         to="/takeout"
+                >
+                   TAKE OUT
+                </NavLink>
+                </div>
             </div>
 
         </main>
