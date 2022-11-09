@@ -7,6 +7,14 @@ export default function DineIn () {
 
     return (
         <div>
+            <div id="wrapper">
+                <NavLink className="orderButton3"
+
+                         to="/order"
+                >
+                    Order Now
+                </NavLink>
+            </div>
             <br></br>
             <br></br>
             <br></br>
@@ -38,8 +46,7 @@ export default function DineIn () {
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
-            <br></br>
+         
             <div>
                 <p className="wordBubble">We try to show you all the variety of Japanese cuisine and its current
                     trends.</p>

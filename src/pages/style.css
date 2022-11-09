@@ -42,6 +42,45 @@
     position: relative;
 }
 
+.orderButton3{
+    position: relative;
+    left:1300px;
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+}
+
+.orderButton4{
+    position: relative;
+    left:1300px;
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+}
 body {
 
     background-color: #FCD19C;

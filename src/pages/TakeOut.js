@@ -7,8 +7,16 @@ export default function TakeOut () {
 
     return (
         <div>
-            <br></br>
-            <br></br>
+            <div id="wrapper">
+                <NavLink className="orderButton4"
+
+                         to="/order"
+                >
+                    Order Now
+                </NavLink>
+
+            </div>
+
             <br></br>
             <br></br>
             <br></br>

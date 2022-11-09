@@ -13,7 +13,7 @@ const Navbar = ({ history }) => {
     >
       <div className="container">
         <div className="navbar-brand">
-          <a
+          <a href
             role="button"
             className={`navbar-burger burger ${isOpen && "is-active"}`}
             aria-label="menu"

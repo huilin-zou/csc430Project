@@ -1,6 +1,6 @@
 import React from "react"
 import logo from "./sushi.png"
-import { NavLink, withRouter } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 export default function Home() {
 
