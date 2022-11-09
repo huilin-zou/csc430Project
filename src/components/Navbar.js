@@ -4,16 +4,12 @@ import { NavLink, withRouter } from "react-router-dom";
 const Navbar = ({ history }) => {
   const [isOpen, setOpen] = useState(false);
 
-
   return (
-    <nav
-      className="navigation"
-      role="navigation"
-      aria-label="main navigation"
-    >
+    <nav className="navigation" role="navigation" aria-label="main navigation">
       <div className="container">
         <div className="navbar-brand">
-          <a href
+          <a
+            href
             role="button"
             className={`navbar-burger burger ${isOpen && "is-active"}`}
             aria-label="menu"
@@ -28,38 +24,21 @@ const Navbar = ({ history }) => {
 
         <div className={`navigation-menu ${isOpen && "is-active"}`}>
           <div className="navbar-start">
-
-            <NavLink
-              className="navbar-item"
-
-              to="/"
-              exact
-            >
+            <NavLink className="navbar-item" to="/" exact>
               Home
             </NavLink>
 
-            <NavLink
-              className="navbar-item"
-
-              to="/about"
-            >
+            <NavLink className="navbar-item" to="/about">
               About Us
             </NavLink>
 
-            <NavLink
-              className="navbar-item"
-
-              to="/contact"
-            >
+            <NavLink className="navbar-item" to="/contact">
               Contact
             </NavLink>
-
           </div>
 
           <div className="navbar-end">
-            <div className="navbar-item">
-
-            </div>
+            <div className="navbar-item"></div>
           </div>
         </div>
       </div>
