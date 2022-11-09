@@ -1,9 +1,9 @@
-import React from "react";
-import {NavLink} from "react-router-dom";
 import "./style.css"
 
-export default function Contact () {
+import React from "react";
+import {NavLink} from "react-router-dom";
 
+export default function Contact() {
 
       return (
           <div>
@@ -58,19 +58,17 @@ export default function Contact () {
                       <br></br>
                     <NavLink className="choiceButton"
 
-                             to="/dinein"
-                    >
-                        DINE IN
-                    </NavLink>
+      to =
+          "/dinein" >
+          DINE IN<
+              /NavLink>
 
                     <NavLink className="choiceButton"
 
-                             to="/takeout"
-                    >
-                        TAKE OUT
-                    </NavLink>
-                </div>
-          </div>
+                             to="/takeout
+              "
+              >TAKE OUT</NavLink>
+                </div>< /div>
 
 
       )
