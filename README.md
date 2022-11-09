@@ -1,5 +1,5 @@
 
-# Please go to the front-page-main branch to view source code (react , js files) for main page.
+# Go to the 'front-page-main' branch to view source code (react , js files) for main page.
 
 # Getting Started with Create React App
 
