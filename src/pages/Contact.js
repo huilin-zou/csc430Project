@@ -10,12 +10,14 @@ export default function Contact () {
 
                 <div className="contact">
                       <h1>Contact Information</h1>
-                      <NavLink className="orderButton2"
+
+                      <NavLink className="orderButton1"
 
                                to="/order"
                       >
-                            Order Now
+                            Order Delivery
                       </NavLink>
+
                 </div>
 
                 <br></br>
@@ -56,19 +58,6 @@ export default function Contact () {
                       <br></br>
                       <br></br>
                       <br></br>
-                    <NavLink className="choiceButton"
-
-                             to="/dinein"
-                    >
-                        DINE IN
-                    </NavLink>
-
-                    <NavLink className="choiceButton"
-
-                             to="/takeout"
-                    >
-                        TAKE OUT
-                    </NavLink>
                 </div>
           </div>
 

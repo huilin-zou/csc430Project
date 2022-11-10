@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "./sushi.png"
 import { NavLink } from "react-router-dom"
+import "./style.css"
 
 export default function Home() {
 
@@ -15,7 +16,7 @@ export default function Home() {
 
                     to="/order"
                     >
-                    Order Now
+                    Order Delivery
             </NavLink>
 
             </div>
@@ -32,19 +33,7 @@ export default function Home() {
                 <br></br>
                 <br></br>
                 <div>
-                <NavLink className="choiceButton"
 
-                         to="/dinein"
-                >
-                    DINE IN
-                </NavLink>
-
-                <NavLink className="choiceButton"
-
-                         to="/takeout"
-                >
-                   TAKE OUT
-                </NavLink>
                 </div>
             </div>
 

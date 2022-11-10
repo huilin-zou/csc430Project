@@ -41,9 +41,9 @@ const Navbar = ({ history }) => {
             <NavLink
               className="navbar-item"
 
-              to="/about"
+              to="/menu"
             >
-              About Us
+              Menu
             </NavLink>
 
             <NavLink

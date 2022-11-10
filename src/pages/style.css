@@ -6,8 +6,9 @@
 
 #wrapper
 {
-    margin:auto;
+
     width:1100px;
+    height: auto;
 }
 
 .container {
@@ -23,8 +24,9 @@
 
 
 .orderButton1{
+
     position: relative;
-    left:710px;
+    left:1000px;
     background-color: #14AE5C;
     border: none;
     color: rgb(255, 255, 255);
@@ -39,12 +41,12 @@
     margin: 5px 5px;
     cursor: pointer;
     border-radius: 15px;
-    position: relative;
+
 }
 
 .orderButton3{
     position: relative;
-    left:1300px;
+    left:800px;
     background-color: #14AE5C;
     border: none;
     color: rgb(255, 255, 255);
@@ -59,7 +61,6 @@
     margin: 5px 5px;
     cursor: pointer;
     border-radius: 15px;
-    position: relative;
 }
 
 .orderButton4{
@@ -79,7 +80,7 @@
     margin: 5px 5px;
     cursor: pointer;
     border-radius: 15px;
-    position: relative;
+
 }
 body {
 
@@ -113,7 +114,7 @@ body {
     border-radius: 15px;
     position: relative;
     top:-200px;
-    left:1300px;
+    left:1600px;
 }
 .orderButton:hover{
     color: blue;
@@ -284,16 +285,17 @@ body {
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
-.about{
+.menu{
 
     position: relative;
     left:1000px;
+    width:auto;
 }
 
 .contact{
 
     position: relative;
-    left:950px;
+    width:auto;
 }
 
 .order{
