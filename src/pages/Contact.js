@@ -9,7 +9,6 @@ export default function Contact () {
           <div>
 
                 <div className="contact">
-                      <h1>Contact Information</h1>
 
                       <NavLink className="orderButton3"
 
@@ -17,6 +16,8 @@ export default function Contact () {
                       >
                             Order Delivery
                       </NavLink>
+
+                    <h1>Contact Information</h1>
 
                 </div>
 

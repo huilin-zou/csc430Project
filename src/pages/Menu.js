@@ -18,7 +18,6 @@ export default function Menu() {
 
                 </NavLink>
 
-
             <div className="menu">
 
             <h1 class="menuheader" align="center">FULL MENU</h1>
@@ -242,7 +241,7 @@ export default function Menu() {
             <div>
 
                 <br></br>
-
+                <br></br>
     <p className="wordBubble2">We try to show you all the variety of Japanese cuisine and its current
         trends.</p>
                 <br></br>
