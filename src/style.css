@@ -244,9 +244,11 @@ body {
     left:1000px;
 }
 
+
 .orderButton1{
+    top:30px;
     position: relative;
-    left:800px;
+    left:1750px;
     background-color: #14AE5C;
     border: none;
     color: rgb(255, 255, 255);

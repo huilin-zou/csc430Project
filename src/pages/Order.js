@@ -36,6 +36,8 @@ const Order = () => (
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
         </div>
         <div>
             <p className="wordBubble">We try to show you all the variety of Japanese cuisine and its current trends.</p>
@@ -44,11 +46,10 @@ const Order = () => (
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
 
-
-
-            <a href='dineIn.html' className="choiceButton">DINE IN</a>
-            <a href='takeOut.html' className="choiceButton">TAKE OUT</a>
         </div>
 
     </div>

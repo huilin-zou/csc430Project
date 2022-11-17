@@ -11,7 +11,7 @@ export default function Contact () {
                 <div className="contact">
                       <h1>Contact Information</h1>
 
-                      <NavLink className="orderButton1"
+                      <NavLink className="orderButton3"
 
                                to="/order"
                       >
@@ -54,6 +54,8 @@ export default function Contact () {
                 <div>
                       <p className="wordBubble">We try to show you all the variety of Japanese cuisine and its current
                             trends.</p>
+                      <br></br>
+                      <br></br>
                       <br></br>
                       <br></br>
                       <br></br>

@@ -6,13 +6,14 @@ import "./style.css"
 export default function Home() {
 
     return (
-        <main data-testid="main-container">
-            <div className="container">
+        <div>
+            <div id = "container">
+
                 <h1 className="logo">Bumble</h1>
                 <h1 className="logo2">Bee</h1>
-            </div>
+
             <div id="wrapper">
-                <NavLink className="orderButton"
+                <NavLink className="orderButton4"
 
                     to="/order"
                     >
@@ -21,12 +22,16 @@ export default function Home() {
 
             </div>
             <div>
-                <img className="s-image" src={logo} alt="sushi"></img>
+                <img className="s-image"  src={logo} alt="sushi"></img>
                 <p className="bigBubble">Japanese</p>
                 <p className="bigBubble2"> Restaurant</p>
             </div>
             <div>
+                <br></br>
                 <p className="wordBubble">We try to show you all the variety of Japanese cuisine and its current trends.</p>
+                <br></br>
+                <br></br>
+                <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -36,7 +41,8 @@ export default function Home() {
 
                 </div>
             </div>
+            </div>
+        </div>
 
-        </main>
     )
 }
