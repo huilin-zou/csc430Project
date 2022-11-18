@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import Order from "./pages/Order"
+import Checkout from "./pages/Cart";
 import './style.css'
 
 
@@ -25,6 +26,9 @@ function App() {
             </Route>
             <Route path="/order">
                 <Order/>
+            </Route>
+            <Route path="/cart">
+                <Checkout/>
             </Route>
         </Switch>
       </div>

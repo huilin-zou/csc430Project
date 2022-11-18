@@ -28,15 +28,12 @@ export default function Home() {
             </div>
             <div>
                 <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
                 <p className="wordBubble">We try to show you all the variety of Japanese cuisine and its current trends.</p>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
                 <div>
 
                 </div>

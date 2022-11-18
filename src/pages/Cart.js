@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
 
-const Order = () => (
+const Checkout = () => (
     <div>
-        <div id="order">
-            <h1>Order Delivery Page!</h1>
+        <div>
             <div>
-            <h2> Customer Information - Name, Address, Payment Method</h2>
+                <h1 className="checkOut"> Checkout Cart!</h1>
             </div>
             <br></br>
             <br></br>
@@ -18,13 +17,6 @@ const Order = () => (
             <br></br>
             <br></br>
             <br></br>
-            <div>
-            <NavLink className="orderPage"
-                to="/menu"
-            >
-                Visit the Menu page to select your order!
-            </NavLink>
-            </div>
             <br></br>
             <br></br>
             <br></br>
@@ -66,4 +58,4 @@ const Order = () => (
     </div>
 );
 
-export default Order;
+export default Checkout;

@@ -56,6 +56,7 @@ const Navbar = ({ history }) => {
 
           </div>
 
+
           <div className="navbar-end">
             <div className="navbar-item">
 

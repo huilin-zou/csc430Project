@@ -8,16 +8,16 @@ export default function Menu() {
 
     return (
         <div>
+            <div>
+                <NavLink className="checkCart"
 
-                <NavLink className="orderButton1"
 
-
-                         to="/order"
+                         to="/cart"
                 >
-                    Order Delivery
+                    Checkout Cart
 
                 </NavLink>
-
+            </div>
             <div className="menu">
 
             <h1 class="menuheader" align="center">FULL MENU</h1>

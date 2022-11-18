@@ -45,9 +45,9 @@
 }
 
 .orderButton3{
-    top:80px;
+    top:40px;
     position: relative;
-    left:840px;
+    left:850px;
     background-color: #14AE5C;
     border: none;
     color: rgb(255, 255, 255);
@@ -84,6 +84,28 @@
     border-radius: 15px;
 
 }
+
+.orderPage{
+
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    left:10px;
+
+}
+
+#order{
+    position: relative;
+    left: 900px;
+}
 body {
 
     background-color: #FCD19C;
@@ -118,6 +140,32 @@ body {
     position: relative;
     top:-200px;
     left:200px;
+}
+
+.checkCart{
+
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    left:1700px;
+
+}
+
+.checkOut{
+    position: relative;
+    left:1000px;
 }
 .orderButton:hover{
     color: blue;
@@ -340,7 +388,7 @@ body {
 
 .contact{
 
-    top:-50px;
+    top:-20px;
 
 }
 
@@ -375,9 +423,11 @@ body {
 
 .menuheader{
     font-size: 50px;
+    display:inline-block;
     font-weight: bolder;
     position: relative;
     top:-50px;
+    left:850px;
 }
 #finePrint
 {
@@ -481,4 +531,64 @@ label{display:block}
         width: 125px;
         height: 125px;
     }
+}
+
+
+#divider
+{
+    margin:auto;
+    width:900px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left:-500px;
+    top:-50px;
+}
+#type
+{
+    margin:auto;
+    width:800px;
+    font-size: 20px;
+    line-height: 26pt;
+    font-weight: bold;
+    position: relative;
+    left:-500px;
+    top:-45px;
+}
+label{display:block}
+.orderButton
+{
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.style{
+    width:75px;
+    height:75px;
+    position: relative;
+    left:-250px;
+    top:40px
+}
+.menuElementButton
+{
+    background-color: #6e7772;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 16px;
 }
