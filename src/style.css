@@ -11,24 +11,30 @@
 }
 
 .container {
+
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding: 1rem;
+    top:10px;
+    margin-bottom: 15px;
+
+
 }
 
+
+
 body {
-    margin: 0;
+
     background-color: #FCD19C;
 
 }
 
 .s-image{
     position: relative;
-    left:600px;
-    max-width:35%;
-    height: auto;
-    top:-50px;
+    left:850px;
+    max-width:80%;
+    height:auto;
+    top:-150px;
 
 }
 .orderButton
@@ -48,8 +54,8 @@ body {
     cursor: pointer;
     border-radius: 15px;
     position: relative;
-    top:-110px;
-    left:900px;
+    top:-200px;
+    left:1300px;
 }
 .orderButton:hover{
     color: blue;
@@ -69,7 +75,7 @@ body {
     margin: 0px 0px;
     border-radius: 20px;
     font-family: "Courier New";
-    top:-230px;
+    top:-430px;
     left:-400px;
 }
 
@@ -86,21 +92,23 @@ body {
     border-radius: 20px;
     font-family: "Courier New";
     position: relative;
-    top:-170px;
+    top:-360px;
     left:-550px;
 }
 
 .logo{
     position: relative;
-    top:-10px;
-    font-size: 40px;
+    top:-60px;
+    font-size: 70px;
+    left:20px;
+
 }
 
 .logo2{
     position: relative;
-    top:-15px;
-    left:25px;
-    font-size: 40px;
+    top:-80px;
+    left:45px;
+    font-size: 70px;
 }
 .navigation {
     height: 60px;
@@ -114,7 +122,20 @@ body {
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
+.navbar-item{
+    position: relative;
+    top:-20px;
+    left:680px;
+    background-color: #C0C0C0;
+    text-decoration: none;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    height:auto;
+    margin-left:100px;
+    border-radius: 5px;
 
+
+
+}
 .navigation-menu {
     margin: auto;
     padding:4px;
@@ -165,9 +186,10 @@ body {
     font-family: "Courier New";
     font-style: italic;
     font-weight: bold;
-    top:10px;
+    top:-30px;
     margin:auto;
-    left:300px;
+    align-items: center;
+    left:560px;
 }
 
 .choiceButton
@@ -183,11 +205,12 @@ body {
     display: inline-block;
     font-size: 18px;
     position:relative;
-    top:-15px;
+    top:-60px;
     margin-left:150px;
-    left:420px;
+    left:680px;
     cursor: pointer;
     border-radius: 16px;
+    align-items: center;
 
 }
 
@@ -201,4 +224,64 @@ body {
     background-color: #FCD19C;
     text-decoration: none;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.about{
+
+    position: relative;
+    left:950px;
+}
+
+.contact{
+
+    position: relative;
+    left:910px;
+}
+
+.order{
+
+    position: relative;
+    left:1000px;
+}
+
+
+.orderButton1{
+    top:30px;
+    position: relative;
+    left:1750px;
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+}
+
+.orderButton2{
+    position: relative;
+    left:800px;
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
 }

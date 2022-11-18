@@ -1,0 +1,594 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper
+{
+
+    height: auto;
+}
+
+#wrapper1{
+    width:auto;
+}
+.container {
+
+    left:-20px;
+    top:-10px;
+    zoom: 0.75;
+
+}
+
+
+.orderButton1{
+
+    top:-10px;
+    position: relative;
+    left:1200px;
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.orderButton3{
+    top:40px;
+    position: relative;
+    left:850px;
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.orderButton4{
+    top:-180px;
+    position: relative;
+    left:1280px;
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.orderPage{
+
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    left:10px;
+
+}
+
+#order{
+    position: relative;
+    left: 900px;
+}
+body {
+
+    background-color: #FCD19C;
+
+}
+
+.s-image{
+
+    position: absolute;
+    background-size: 0px;
+    top:-10px;
+
+
+
+}
+.orderButton
+{
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    top:-200px;
+    left:200px;
+}
+
+.checkCart{
+
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding-left:12px;
+    padding-right:12px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    left:1700px;
+
+}
+
+.checkOut{
+    position: relative;
+    left:1000px;
+}
+.orderButton:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.bigBubble{
+    background-color: #eef1f0;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 36px;
+    margin: 0px 0px;
+    border-radius: 20px;
+    font-family: "Courier New";
+    top:-430px;
+    left:-400px;
+}
+
+.bigBubble2{
+    background-color: #eef1f0;
+    border: none;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 0px 0px;
+    border-radius: 20px;
+    font-family: "Courier New";
+    position: relative;
+    top:-360px;
+    left:-550px;
+}
+
+.logo{
+    position: relative;
+    top:-60px;
+    font-size: 70px;
+    left:20px;
+
+}
+
+.logo2{
+    position: relative;
+    top:-80px;
+    left:45px;
+    font-size: 70px;
+}
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #FCD19C;
+    text-decoration: none;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+
+}
+
+.navbar-item {
+    position: relative;
+    top: -10px;
+    left: 700px;
+    background-color: #C0C0C0;
+    text-decoration: none;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    height: auto;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.navbar-start{
+    position: relative;
+    left:60px;
+
+}
+.navigation-menu {
+    margin: auto;
+    padding:4px;
+    color:black;
+}
+
+.navigation-menu ul {
+    display: flex;
+    padding: 0;
+
+}
+
+.navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+    background-color: #BEBEBE;
+    padding:10px;
+    border-radius: 15px;
+    padding-left:12px;
+    padding-right: 12px;
+
+}
+
+.navigation-menu li a {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color:black;
+
+}
+
+.navigation-menu li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.wordBubble
+{
+    background-color: #eef1f0;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 16px;
+    position: relative;
+    font-family: "Courier New";
+    font-style: italic;
+    font-weight: bold;
+    top:-30px;
+    margin:auto;
+    align-items: center;
+    left:560px;
+}
+
+.wordBubble1
+{
+    background-color: #eef1f0;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 16px;
+    position: relative;
+    font-family: "Courier New";
+    font-style: italic;
+    font-weight: bold;
+    top:-120px;
+    margin:auto;
+    align-items: center;
+    left:560px;
+}
+
+.wordBubble2
+{
+    background-color: #eef1f0;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 16px;
+    position: relative;
+    font-family: "Courier New";
+    font-style: italic;
+    font-weight: bold;
+    margin-top:30px;
+    top:-10px;
+    align-items: center;
+    left:560px;
+}
+
+.choiceButton
+{
+    background-color: #FFA629;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding-top: 15px;
+    padding-left:13px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    position:relative;
+    top:-60px;
+    margin-left:150px;
+    left:680px;
+    cursor: pointer;
+    border-radius: 16px;
+    align-items: center;
+
+}
+
+.footernav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #FCD19C;
+    text-decoration: none;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+
+
+.contact{
+
+    top:-20px;
+
+}
+
+.order{
+
+    position: relative;
+    left:1000px;
+}
+
+
+#divider
+{
+    margin:auto;
+    width:900px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#itemName
+{
+    margin:auto;
+    width:800px;
+    font-size: 20px;
+    line-height: 26pt;
+}
+#itemDescription
+{
+    margin:auto;
+    width:750px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.menuheader{
+    font-size: 50px;
+    display:inline-block;
+    font-weight: bolder;
+    position: relative;
+    top:-50px;
+    left:850px;
+}
+#finePrint
+{
+    color: rgb(255, 53, 53);
+    margin:auto;
+    width:1000px;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 16pt;
+}
+label{display:block}
+.menuElementButton
+{
+    background-color: #6e7772;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.container2 {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.menu {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    max-width: 100%;
+    margin-left:50px;
+
+}
+
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.menu-item-price
+
+.menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5.0em;
+    padding: 1.0em 0;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+.menu-item-text {
+    flex-grow: 1;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.menu-item-name {
+    margin-right: 1.5em;
+}
+
+.menu-item-description {
+    line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+    .menu {
+        font-size: 16px;
+    }
+
+    .menu-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-item-image {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+
+#divider
+{
+    margin:auto;
+    width:900px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left:-500px;
+    top:-50px;
+}
+#type
+{
+    margin:auto;
+    width:800px;
+    font-size: 20px;
+    line-height: 26pt;
+    font-weight: bold;
+    position: relative;
+    left:-500px;
+    top:-45px;
+}
+label{display:block}
+.orderButton
+{
+    background-color: #14AE5C;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.style{
+    width:75px;
+    height:75px;
+    position: relative;
+    left:-250px;
+    top:40px
+}
+.menuElementButton
+{
+    background-color: #6e7772;
+    border: none;
+    color: rgb(14, 3, 3);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 16px;
+}
