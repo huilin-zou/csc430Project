@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, withRouter } from "react-router-dom";
+import cart from "./icons8-shopping-cart-24.png"
 
 const Navbar = ({ history }) => {
   const [isOpen, setOpen] = useState(false);
@@ -52,6 +53,14 @@ const Navbar = ({ history }) => {
               to="/contact"
             >
               Contact
+            </NavLink>
+
+            <NavLink
+                className="navbar-item1"
+
+                to="/cart"
+            >
+              <img className="cart" src={cart}></img>
             </NavLink>
 
           </div>
