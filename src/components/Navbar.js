@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { NavLink, withRouter } from "react-router-dom";
+import React, {useState} from "react";
+import {NavLink, withRouter} from "react-router-dom";
 
-const Navbar = ({ history }) => {
+const Navbar = ({history}) => {
   const [isOpen, setOpen] = useState(false);
 
 

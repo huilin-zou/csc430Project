@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
+import {Redirect} from "react-router-dom";
 
 const withAuth = (Component) => {
   const AuthRoute = () => {
@@ -7,7 +7,7 @@ const withAuth = (Component) => {
     if (isAuth) {
       return <Component />;
     } else {
-      return <Redirect to="/" />;
+      return <Redirect to = "/" />;
     }
   };
 
