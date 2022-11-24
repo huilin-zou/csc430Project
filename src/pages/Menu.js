@@ -283,6 +283,16 @@ export default function Menu() {
                 </div>
             </div>
             </div>
+        
+            <div id="finePrint">
+                <p>
+                    * This menu item consist of, or contains meat, fish, shellfish, or fresh shell eggs that are raw or not cooked to proper temperature to destroy harmful bacteria and/or virus. Consuming raw or uncooked meat, fish, shellfish, or fresh shell eggs may increase your risk of food-borne illness, especially if you have certain medical conditions.
+                    <br>*Before placing your order, please inform your server if a person in your party has a food allergy.
+                    <br>*Prices are subject to change without any notification.
+                </p>
+            </div>
+
+
             <div>
 
                 <br></br>
