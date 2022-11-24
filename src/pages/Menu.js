@@ -47,6 +47,11 @@ export default function Menu() {
 
                             </div>
                         </div>
+                        <div class="menu-item-description">
+                            <p>
+                                Made using little neck clams, mushrooms, and mixed vegetables
+                            </p>
+                        </div>
                         <div class="menu-item">
 
                             <div class="menu-item-text">
@@ -100,6 +105,11 @@ export default function Menu() {
                                 </h3>
                             </div>
                         </div>
+                        <div class="menu-item-description">
+                            <p>
+                                Made of crab, caviar, cucumber, and sesame seeds, mixed with Mayonnaise
+                            </p>
+                        </div>
                     </div>
                     <br></br>
                     <h2 class="menu-group-heading">
@@ -143,6 +153,11 @@ export default function Menu() {
                                 </h3>
                             </div>
                         </div>
+                        <div class="menu-item-description">
+                            <p>
+                                Thinly sliced beef rolled with scallions
+                            </p>
+                        </div>
                     </div>
                     <br></br>
                     <h2 class="menu-group-heading">
@@ -158,6 +173,11 @@ export default function Menu() {
 
                             </div>
                         </div>
+                        <div class="menu-item-description">
+                            <p>
+                                Assorted slices of raw fish on rice, 5 pieces
+                            </p>
+                        </div>
                         <div class="menu-item">
 
                             <div class="menu-item-text">
@@ -166,6 +186,11 @@ export default function Menu() {
                                     <span class="menu-item-price">$8.00</span>
                                 </h3>
                             </div>
+                        </div>
+                        <div class="menu-item-description">
+                            <p>
+                                A selection of various raw fish fillets, 6 pieces
+                            </p>
                         </div>
                     </div>
                     <br></br>
@@ -181,6 +206,11 @@ export default function Menu() {
                                 </h3>
 
                             </div>
+                        </div>
+                        <div class="menu-item-description">
+                            <p>
+                                Made from a tortilla topped with tuna, kani, and avocado
+                            </p>
                         </div>
                         <div class="menu-item">
 
@@ -206,6 +236,11 @@ export default function Menu() {
 
                             </div>
                         </div>
+                        <div class="menu-item-description">
+                            <p>
+                                Made of soft shell crab, cucumber, and shrimp tempura on the inside. <br>Eel, avocado and a honey drizzle on the outside
+                            </p>
+                        </div>
                         <div class="menu-item">
 
                             <div class="menu-item-text">
@@ -225,6 +260,11 @@ export default function Menu() {
 
                             </div>
                         </div>
+                        <div class="menu-item-description">
+                            <p>
+                                A cucumber roll wrapped without rice. The inside is made of avocado. <br> A choice if available of tuna, salmon, or yellowtail on the outside
+                            </p>
+                        </div>
                         <div class="menu-item">
 
                             <div class="menu-item-text">
@@ -233,6 +273,11 @@ export default function Menu() {
                                     <span class="menu-item-price">$4.75</span>
                                 </h3>
                             </div>
+                        </div>
+                        <div class="menu-item-description">
+                            <p>
+                                Made of spice kani, crunch, and avocado on the inside. <br>Tuna and fresh sliced mango with mango sauce on the outside
+                            </p>
                         </div>
                     </div>
                 </div>
