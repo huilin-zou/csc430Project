@@ -1,6 +1,12 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import "./style.css"
+import misoSoup from "../assets/miso-soup.jpg"
+import seaweedSalad from "../assets/seaweed-salad.jpg"
+import beefNegimake from "../assets/beef-negimake.jpg"
+import yellowtailJalapeno from "../assets/yellowtail-jalapeno.jpg"
+import narutoRoll from "../assets/naruto.jpg"
+import sashimi from "../assets/sashimi.jpg"
 
 
 export default function Menu() {
@@ -47,6 +53,13 @@ export default function Menu() {
 
                             </div>
                         </div>
+                        <br></br>
+                        <div class="menuImgContainer">
+                            <img className="menuImg" src={misoSoup} alt="Miso Soup"></img>
+                            <div className="menuImgOverlay">
+                                <div className="menuImgText">Miso Soup</div>
+                            </div>
+                        </div>
                     </div>
                     <br></br>
                     <h2 class="menu-group-heading">
@@ -88,6 +101,13 @@ export default function Menu() {
                                     <span class="menu-item-name">Kani Salad</span>
                                     <span class="menu-item-price">$4.75</span>
                                 </h3>
+                            </div>
+                        </div>
+                        <br></br>
+                        <div class="menuImgContainer">
+                            <img className="menuImg" src={seaweedSalad} alt="Seaweed Salad"></img>
+                            <div className="menuImgOverlay">
+                                <div className="menuImgText">Seaweed Salad</div>
                             </div>
                         </div>
                     </div>
@@ -133,6 +153,13 @@ export default function Menu() {
                                 </h3>
                             </div>
                         </div>
+                        <br></br>
+                        <div class="menuImgContainer">
+                            <img className="menuImg" src={beefNegimake} alt="Beef Negimake"></img>
+                            <div className="menuImgOverlay">
+                                <div className="menuImgText">Beef Negimake</div>
+                            </div>
+                        </div>
                     </div>
                     <br></br>
                     <h2 class="menu-group-heading">
@@ -155,6 +182,13 @@ export default function Menu() {
                                     <span class="menu-item-name">Sashimi</span>
                                     <span class="menu-item-price">$8.00</span>
                                 </h3>
+                            </div>
+                        </div>
+                        <br></br>
+                        <div class="menuImgContainer">
+                            <img className="menuImg" src={sashimi} alt="Sashimi"></img>
+                            <div className="menuImgOverlay">
+                                <div className="menuImgText">Sashimi</div>
                             </div>
                         </div>
                     </div>
@@ -181,6 +215,13 @@ export default function Menu() {
                                 </h3>
                             </div>
                         </div>
+                        <br></br>
+                        <div class="menuImgContainer">
+                            <img className="menuImg" src={yellowtailJalapeno} alt="Yellowtail Jalapeno"></img>
+                            <div className="menuImgOverlay">
+                                <div className="menuImgText">Yellowtail Jalapeno</div>
+                            </div>
+                        </div>
                     </div>
                     <br></br>
                     <h2 class="menu-group-heading">
@@ -200,7 +241,7 @@ export default function Menu() {
 
                             <div class="menu-item-text">
                                 <h3 class="menu-item-heading">
-                                    <span class="menu-item-name"> Naruto Roll</span>
+                                    <span class="menu-item-name">Naruto Roll</span>
                                     <span class="menu-item-price">$9.95</span>
                                 </h3>
                             </div>
@@ -222,6 +263,13 @@ export default function Menu() {
                                     <span class="menu-item-name">Kani Salad</span>
                                     <span class="menu-item-price">$4.75</span>
                                 </h3>
+                            </div>
+                        </div>
+                        <br></br>
+                        <div class="menuImgContainer">
+                            <img className="menuImg" src={narutoRoll} alt="Naruto Roll"></img>
+                            <div className="menuImgOverlay">
+                                <div className="menuImgText">Naruto Roll</div>
                             </div>
                         </div>
                     </div>
